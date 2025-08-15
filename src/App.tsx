@@ -500,12 +500,12 @@ function App() {
             </div>
             
             <div>
-              <h4 className="text-xl font-semibold mb-4">Link Berguna</h4>
+              <h4 className="text-xl font-semibold mb-4"></h4>
               <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-red-400 transition-colors">Sejarah Indonesia</a></li>
-                <li><a href="#" className="hover:text-red-400 transition-colors">Pahlawan Nasional</a></li>
-                <li><a href="#" className="hover:text-red-400 transition-colors">Budaya Indonesia</a></li>
-                <li><a href="#" className="hover:text-red-400 transition-colors">Wisata Indonesia</a></li>
+                <li><a href="#" className="hover:text-red-400 transition-colors"></a></li>
+                <li><a href="#" className="hover:text-red-400 transition-colors"></a></li>
+                <li><a href="#" className="hover:text-red-400 transition-colors"></a></li>
+                <li><a href="#" className="hover:text-red-400 transition-colors"></a></li>
               </ul>
             </div>
             
