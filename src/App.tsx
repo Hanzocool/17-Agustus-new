@@ -228,7 +228,7 @@ function App() {
           <div className="mb-8">
             <Flag className="w-16 h-16 mx-auto mb-4 text-yellow-300" />
             <h1 className="text-6xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-white to-yellow-200 bg-clip-text text-transparent">
-              17 AGUSTUS
+              17 AGUSTUS CLUSTER KALITA
             </h1>
             <p className="text-2xl md:text-3xl font-semibold mb-2">HARI KEMERDEKAAN</p>
             <p className="text-xl md:text-2xl opacity-90">REPUBLIK INDONESIA</p>
