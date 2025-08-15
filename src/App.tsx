@@ -512,9 +512,9 @@ function App() {
             <div>
               <h4 className="text-xl font-semibold mb-4">Kontak</h4>
               <div className="text-gray-300 space-y-2">
-                <p>🇮🇩 Republik Indonesia</p>
-                <p>📧 info@indonesia.go.id</p>
-                <p>🌐 www.indonesia.go.id</p>
+                <p>Ketua Panitia 17 Agustus CLuster Kalita</p>
+                <p>+62 822-9858-2542</p>
+                <p>Untuk Info Lebih Lanjut</p>
               </div>
             </div>
           </div>
