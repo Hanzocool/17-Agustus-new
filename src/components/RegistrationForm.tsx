@@ -60,14 +60,14 @@ export default function RegistrationForm({ isOpen, onClose, onSubmit }: Registra
       }
       if (!formData.childParticipant1Age.trim()) {
         newErrors.childParticipant1Age = 'Umur Anak 1 wajib diisi';
-      } else if (isNaN(Number(formData.childParticipant1Age)) || Number(formData.childParticipant1Age) < 5 || Number(formData.childParticipant1Age) > 17) {
-        newErrors.childParticipant1Age = 'Umur anak harus antara 5-17 tahun';
+      } else if (isNaN(Number(formData.childParticipant1Age)) || Number(formData.childParticipant1Age) < 1 || Number(formData.childParticipant1Age) > 50) {
+        newErrors.childParticipant1Age = 'Umur harus antara 1-50 tahun';
       }
       
       if (formData.childParticipant2Name.trim() && !formData.childParticipant2Age.trim()) {
         newErrors.childParticipant2Age = 'Umur Anak 2 wajib diisi jika nama diisi';
-      } else if (formData.childParticipant2Age.trim() && (isNaN(Number(formData.childParticipant2Age)) || Number(formData.childParticipant2Age) < 5 || Number(formData.childParticipant2Age) > 17)) {
-        newErrors.childParticipant2Age = 'Umur anak harus antara 5-17 tahun';
+      } else if (formData.childParticipant2Age.trim() && (isNaN(Number(formData.childParticipant2Age)) || Number(formData.childParticipant2Age) < 1 || Number(formData.childParticipant2Age) > 50)) {
+        newErrors.childParticipant2Age = 'Umur harus antara 1-50 tahun';
       }
     }
 
@@ -330,8 +330,8 @@ export default function RegistrationForm({ isOpen, onClose, onSubmit }: Registra
                           errors.childParticipant1Age ? 'border-red-500 bg-red-50' : 'border-gray-300'
                         }`}
                         placeholder="Umur"
-                        min="5"
-                        max="17"
+                        min="1"
+                        max="50"
                       />
                       {errors.childParticipant1Age && <p className="text-red-500 text-sm mt-1">{errors.childParticipant1Age}</p>}
                     </div>
@@ -363,8 +363,8 @@ export default function RegistrationForm({ isOpen, onClose, onSubmit }: Registra
                           errors.childParticipant2Age ? 'border-red-500 bg-red-50' : 'border-gray-300'
                         }`}
                         placeholder="Umur"
-                        min="5"
-                        max="17"
+                        min="1"
+                        max="50"
                       />
                       {errors.childParticipant2Age && <p className="text-red-500 text-sm mt-1">{errors.childParticipant2Age}</p>}
                     </div>
