@@ -200,7 +200,7 @@ function App() {
   };
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '6281234567890'; // Ganti dengan nomor WhatsApp yang sesuai
+    const phoneNumber = '6282260711961'; // Ganti dengan nomor WhatsApp yang sesuai
     const message = encodeURIComponent('Halo! Saya ingin bertanya tentang acara 17 Agustus di Cluster Kalita.');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');
